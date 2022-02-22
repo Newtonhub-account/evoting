@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    margin: 0px;
+}
+.n1{
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+body{
+    background-color: none;
+
+}
+.col {
+    float: left;
+    width: 40%;
+    height:100%; 
+    background-color: whitesmoke;
+    margin-left: auto;
+    background: transparent;
+  }
+  img{
+    width: 70%;
+    height:100%; 
+    background: transparent;
+
+  }
+  .vote1{
+    font-size: x-large;
+    padding: 37px;
+  }
+  article {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: #f1f1f1;
+    height:100%; 
+    background: transparent;
+  }
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

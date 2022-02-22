@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#d1{
+    background-color: green;
+    display: flex;
+    padding: 10px;  
+}
+ .log{
+   padding:1%;
+   text-align: left;
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-size: 40px; 
+}
+
+nav ul li{
+  position: relative;
+  float: left;
+  list-style: none;
+  display: block;
+}
+
+nav ul li a{
+  padding: 15px 16px;
+  display: block;
+  text-decoration: none;
+
+}
+nav ul li ul{
+  display:none;
+  position: absolute;
+  background-color: green;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+nav ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+}
+nav ul li:hover .sub-menu-1 ul {
+  display: block;
+  background-color: green
+}
+nav ul li:hover.sub-menu-1 ul li {
+  max-width: 150px;
+  padding: 5px;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+nav ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+nav ul li:hover .sub-menu-1 ul li a:hover {
+  color: white;
+}
+nav ul li ul li a {
+  width: 100px;
+  text-align: center;
+ 
+}
+
+.L1{
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+
+}
+
+.L1 :hover{
+  background-color: darkgreen;
+  border-radius: 6px;
+
+}
+
+a{
+    text-decoration-style: none;
+    color: white;
+    font-size: 14px;
+    display: block;
+    padding:  22px 14px;
+}
+
+h1{
+    padding: 5px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  color: black;
+  font-size: x-large; 
+}
+
+/* Style the header */
+header {
+    background-color:whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+  }
+  /* Create two columns/boxes that floats next to each other */
+.col {
+    float: left;
+    width: 30%;
+    height: 400px; 
+    background-color: whitesmoke;
+    margin-left: auto;
+  }
+
+.square{
+   border-radius: 120px;
+   border-block: solid;
+   background-color:lightblue;
+   padding-bottom: 70px;
+   background: linear-gradient(to right,green, red,  green); 
+}
+
+h3{
+  padding: 10px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+}
+h4{
+  padding: 10px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  color: black;
+  text-align: center;
+}
+h2{
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  padding: 5px;
+  font-size: xx-large;
+  text-align: center;
+  border-style: double;
+  border-block-color: green;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 50px ;
+  border-bottom-left-radius: 1px ;
+}
+h5{
+  padding: 10px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  color: black;
+  text-align: center;
+}
+.vote1{
+  font-size: x-large;
+  padding: 37px;
+}
+.sep1{
+    display: flex;
+    float: left;
+    color: black;
+}
+  /* Style the footer */
+footer {
+  background: linear-gradient(to left,green, red,  white);   
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: large;
+    
+  }
+  /* for the other side of the column*/
+  article {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 400px; 
+  }
+  /* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+ol{
+  padding-top: 0px;
+  padding: 40px;
+}
